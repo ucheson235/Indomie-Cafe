@@ -1,0 +1,461 @@
+*{
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+/* nav bar with images and buttons */
+.nav-cafe{
+    background-color: white;
+}
+
+
+ul{
+    list-style-type: none;
+    text-align: center;
+    padding-left: 600px;
+    
+    
+}
+
+li{
+    float: left;
+   
+   
+    
+}
+
+.home{
+    background-color: rgb(255 204 41);
+    border-radius: 50px;
+    width: 50px;
+    font-size: 40px;
+    font-weight: 400;
+    margin-right: 70px;
+    width: 150px;
+    color: red;
+}
+
+.about-us{
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: 70px;
+}
+
+.about-us:hover{
+    background-color: rgb(255 204 41);
+    border-radius: 50px;
+    width: 200px;
+    color: red;
+
+}
+
+.menu{
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: 70px;
+
+}
+
+.menu:hover{
+    background-color: rgb(255 204 41);
+    border-radius: 50px;
+    width: 200px;
+    color: red;
+
+}
+
+.locate-us{
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: 70px;
+    margin-left: 100px;
+
+}
+
+.locate-us:hover{
+    background-color: rgb(255 204 41);
+    border-radius: 50px;
+    width: 200px;
+    color: red;
+
+}
+
+ul img{
+    margin-left: 100px;
+}
+
+.btn{
+    font-size: 50px;
+    font-weight: 300;
+    background-color: rgb(206, 65, 60);
+    border-radius: 40px;
+    color: white;
+    padding: 15px;
+    border:  black solid ;
+}
+
+.btn:hover{
+    background-color: black;
+}
+
+/* section 1 with indomie image */
+
+.Indomie-div img{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 1500px;
+    position: relative;
+    
+    
+
+}
+
+.indomie-btn{
+    position: absolute;
+    top: 700px;
+    left: 50%;
+}
+
+.indomie-btn button{
+
+    font-size: 50px;
+    font-weight: 300;
+    background-color: rgb(206, 65, 60);
+    border-radius: 40px;
+    color: white;
+    padding: 15px;
+    border:  black solid ;
+}
+
+.indomie-btn button:hover{
+    background-color: black;
+}
+
+
+/* steps sections  */
+
+.main-steps{
+    background-color: rgb(255 204 41);
+    position: absolute;
+    top: 1650px;
+    width: 100%;
+
+}
+
+.steps{
+    top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    height: 500px;
+    padding-top: 200px;
+    background-color: rgb(255 204 41);
+    
+    
+}
+
+.steps1-img{
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.steps2-img{
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.steps3-img{
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.steps4-img{
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.steps h2{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+
+.steps h3{
+    font-size: 30px;
+    font-weight: 300;
+    font-family: sans-serif;
+}
+
+/* section 3  */
+
+.section-3{
+    margin-top: 650px;
+    background-color: black;
+    height: 2800px;
+    position: relative;
+    
+}
+
+.section-3 img{
+    position: absolute;
+    top: 200px;
+    left: 15%;
+}
+
+.section-3-text{
+    position: absolute;
+    top: 300px;
+    right: 15%;
+    color: white;
+}
+
+.section-3-text h1{
+    color: rgb(255 204 41);
+    font-size: 70px;
+    padding-bottom: 50px;
+}
+
+.section-3-text p{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: sans-serif;
+    line-height: 60px;
+}
+
+.section-3-text button{
+    font-size: 40px;
+    font-weight: 300;
+    background-color: rgb(221, 177, 33);
+    border-radius: 40px;
+    color: black;
+    padding: 15px;
+    border:  white solid ;
+    font-family: sans-serif;
+   margin-top: 50px;
+
+}
+
+.section-3-text button:hover{
+    background-color: rgb(179, 54, 54);
+    color: white;
+}
+
+.cafe-img{
+    position: absolute;
+    top: 1000px;
+    
+
+}
+
+.menu-div{
+    color: white;
+    position: absolute;
+    top: 2500px;
+    left: 25%;
+    text-align: center;
+}
+
+.menu-div h3{
+    font-size: 30px;
+   font-family: sans-serif;
+   font-weight: 100;
+}
+
+.menu-div h2{
+    font-size: 100px;
+    font-weight: bold;
+    color: rgb(221, 177, 33);
+}
+
+/* sections with card of images  */
+
+.cards{
+    background-color: black;
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 400px;
+    padding-left: 400px;
+    padding-top: 100px;
+   
+}
+
+.card1{
+    position: relative;
+    border-radius: 5px;
+}
+
+.card1-text{
+    background-color: white;
+    color: black;
+    text-align: center;
+    height: 300px;
+    position: absolute;
+    top: 450px;
+    width: 100%;
+}
+.card2{
+    position: relative;
+    border-radius: 5px;
+}
+
+.card2-text{
+    background-color: white;
+    color: black;
+    text-align: center;
+    height: 300px;
+    position: absolute;
+    top: 450px;
+    width: 100%;
+}
+.card3{
+    position: relative;
+    border-radius: 5px;
+}
+
+.card3-text{
+    background-color: white;
+    color: black;
+    text-align: center;
+    height: 300px;
+    position: absolute;
+    top: 450px;
+    width: 100%;
+}
+
+.card-btn{
+    position: absolute;
+    top: 410px;
+    right: -20px;
+    width: 300px;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+    background-color: rgb(221, 177, 33);
+    border: none;
+}
+.card-btn:hover{
+    background-color: brown;
+    color: white;
+}
+
+.cards  h2{
+    padding-top: 50px;
+    color: brown;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.cards  h4{
+    font-size: 30px;
+    font-weight: 300;
+    font-family: sans-serif;
+    line-height: 50px;
+    padding-top: 30px;
+}
+
+.sub-cards{
+    height: 2000px;
+    background-color: black;
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 400px;
+    padding-left: 400px;
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+.sub-cards h2{
+    padding-top: 50px;
+    color: brown;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+.sub-cards h4{
+    font-size: 30px;
+    font-weight: 300;
+    font-family: sans-serif;
+    line-height: 50px;
+    padding-top: 30px;
+
+}
+
+
+.see-more{
+    align-items: center;
+    background-color: black;
+    padding-bottom: 200px;
+    text-align: center;
+}
+
+.btn-see-more{
+    font-size: 50px;
+    font-weight: 300;
+    color: black;
+    border-radius: 40px;
+    background-color: rgb(221, 177, 33);
+    padding: 15px;
+    border:  white solid ;
+   
+
+}
+.btn-see-more:hover{
+    background-color: brown;
+    color: white;
+}
+
+/* footer */
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.footer-div{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+    border: none;
+    padding-bottom: 100px;
+}
+
+.footer-div h2{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgb(221, 177, 33);
+}
+
+.footer-div h3{
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+.footer-div-input input{
+    padding: 20px;
+    width: 900px;
+    font-size: 30px;
+}
+
+.footer-btn{
+    font-size: 40px;
+    font-weight: small;
+    color: black;
+    border-radius: 40px;
+    background-color: rgb(221, 177, 33);
+    padding: 20px;
+    border:  white solid ;
+
+}
+
+.nav-img{
+    
+}
